@@ -1,0 +1,21 @@
+telegram:
+  api_id: 123456
+  api_hash: "your_api_hash_here"
+  session_name: "data/session"
+  channels:
+    - -1001234567890
+    - "@some_channel_username"
+
+bale:
+  target_chat_name: "Saved Messages"
+  browser_data_dir: "data/bale_browser"
+  headless: false
+  slow_mo: 100
+
+dedup:
+  db_path: "data/seen_configs.db"
+  max_age_hours: 168
+
+logging:
+  level: "INFO"
+  file: "data/agent.log"
